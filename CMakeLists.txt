@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.10)
+project(compute-sanitizer-test)
+add_subdirectory(memcheck)
+add_subdirectory(memcheck-hybrid)
+add_subdirectory(memcheck-dynamic-hybrid)
